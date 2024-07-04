@@ -1,10 +1,11 @@
-format_version = 1
-
 [[exercises]]
 name = "compFailure"
-test = false
+path = "compFailure.rs"
+mode = "compile"
 hint = ""
 
 [[exercises]]
 name = "testFailure"
+path = "testFailure.rs"
+mode = "test"
 hint = "Hello!"
